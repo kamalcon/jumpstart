@@ -1,8 +1,9 @@
 /*eslint-env jquery, browser*/
 
-"use strict";
-$(document).ready(function () {
-	$('.carousel').slick({
-    autoplay: true
+$(document).ready(function() {
+	$(".carousel").slick({
+    autoplay: true,
+		autoplaySpeed: 4000
   });
+	$("div").css("border", "3px solid red");
 });
